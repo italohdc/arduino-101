@@ -1,4 +1,4 @@
-# Arduino #101
+# Arduino 101
 
 Introdução e conceitos básicos para a utilização de um Arduino.
 
