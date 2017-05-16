@@ -98,3 +98,26 @@ void loop () {
 ```
 
 Nesse código, o LED ficará aceso por 1 segundo e apagado por 1 segundo.
+
+---
+
+# Atividade #1
+
+Usando os comandos acima, tente reproduzir a mensagem “SOS” em código morse utilizando o LED acoplado ao Arduino.
+
+|S|O|S|
+|---|---|---|
+|• • •|─ ─ ─|• • •|
+
+# Atividade #2
+
+Crie um código que faça com que o LED acoplado pisque. Porém, o tempo que ele permanece desligado deve aumentar progressivamente.
+
+|Ciclo|Tempo Ligado (ms)|Tempo Desligado (ms)|
+|---|---|---|
+|1º|250|250|
+|2º|250|500|
+|3º|250|750|
+|4º|250|1000|
+|5º|250|1250|
+|...|...|...|
