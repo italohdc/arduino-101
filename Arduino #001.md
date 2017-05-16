@@ -22,7 +22,7 @@ void loop () {
 }
 ```
 
-A função ``void setup()`` será executada apenas uma vez ao início da execução do código na placa. A função ``void loop()`` será executada após o término do ``void setup()`` infinitamente.
+A função ``void setup()`` será executada apenas uma vez ao início da execução do código na placa. A função ``void loop()`` será executada após o término do ``void setup()`` em um ciclo infinito.
 
 ## _void setup ()_ e _void loop ()_
 
