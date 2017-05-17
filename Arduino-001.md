@@ -48,6 +48,8 @@ ex.: digitalWrite(13, HIGH); // pino 13, ligado (5V)
 
 Por tratar-se de um pino digital, pode-se fazer uma analogia à lógica binária. O estado ``LOW`` representa o ``0`` e o estado ``HIGH`` representa o ``1``.
 
+``LOW = 0`` e ``HIGH = 1``
+
 ## Piscar LED
 
 O Arduino possui um LED acoplado à porta 13. Isso significa que qualquer valor enviado ao pino 13 será repassado para o LED. Para acender este LED, pode-se utilizar o seguinte código:
