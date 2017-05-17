@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O programa que você utiliza para escrever o seu código e carregá-lo para o Arduino é chamado de Arduino IDE. Nele você consegue facilmente criar um código e enviá-lo para a placa Arduino.
+O programa que você utiliza para escrever o seu código e carregá-lo para o Arduino é chamado de Arduino IDE (Ambiente de Desenvolvimento Integrado Arduino). Nele você consegue facilmente criar um código e enviá-lo para a placa Arduino.
 
 [Download Arduino IDE](https://www.arduino.cc/en/Main/Software#download)
 
