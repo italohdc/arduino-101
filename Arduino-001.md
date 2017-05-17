@@ -123,3 +123,5 @@ Crie um código que faça com que o LED acoplado pisque. Porém, o tempo que ele
 |...|...|...|
 
 Lembrando que a linguagem de programação utilizada pela Arduino IDE compartilha várias funções em comum com a linguagem C++.
+
+### [Resoluções das Atividades](https://github.com/italohdc/arduino-101/tree/master/Atividades/Arduino-001)
