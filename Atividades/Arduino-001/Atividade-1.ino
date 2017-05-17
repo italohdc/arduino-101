@@ -25,8 +25,8 @@ void loop ()
 	delay(200);
 
 
-	// Segundo loop para piscar o LED 3 vezes rapidamente
-	// S = * * *
+	// Segundo loop para piscar o LED 3 vezes devagar
+	// O = ─ ─ ─
 	for (int i=0; i<3; i++)
 	{
 		digitalWrite(13, HIGH);
