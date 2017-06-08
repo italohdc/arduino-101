@@ -6,11 +6,12 @@ Caso você já tenha alguma familiaridade com a linguagem C++, você pode pular 
 
 ## Declarar Comentários
 
-Você deve ter percebido que nos códigos de exemplo algumas explicações do funcionamento da função eram colocados após o operador ``//``. O operador ``//`` é utilizado para declarar comentários em uma única linha (isto é, todo o texto que estiver posicionado após o operador não será interpretado pelo compilador).
+Você deve ter percebido que nos códigos de exemplo algumas explicações do funcionamento da função eram colocados após o operador ``//``. O operador ``//`` é utilizado para declarar comentários em uma única linha (isto é, todo o texto que estiver posicionado após o operador não será interpretado pelo compilador, inclusive funções e operadores).
 
 ```arduino
   digitalWrite(13, HIGH);   // Este trecho do código não será executado
   delay(1000);
+  // digitalWrite(13, HIGH); // Esta linha também não será executada
 ```
 
 Caso você deseje criar um comentário de várias linhas, você pode utilizar os operadores ``/*`` e ``*/`` indicando, respectivamente, o início e o fim do comentário.
@@ -19,7 +20,7 @@ Caso você deseje criar um comentário de várias linhas, você pode utilizar os
   digitalWrite(13, HIGH);
   
   /* Este trecho
-  de código não
+  de texto não
   será executado */
   
   delay(1000);
@@ -90,3 +91,8 @@ a || b    OR  (OU)
 |---|---|
 |20 == 20|true|
 |20 == 10|false|
+
+* if, else, else if
+* for
+* while
+* functions
