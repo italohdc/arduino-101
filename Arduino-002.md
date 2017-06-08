@@ -96,3 +96,5 @@ a || b    OR  (OU)
 * for
 * while
 * functions
+
+* Declarar bibliotecas (outro tópico)
