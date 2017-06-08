@@ -62,17 +62,17 @@ a <= b    Menor ou igual a
 Além disso, temos os operadores
 
 ```js
-&&    AND (E)
-      False && False   False
-      False && True    False
-      True  && False   False
-      True  && True    True
+a && b    AND (E)
+          False && False   False
+          False && True    False
+          True  && False   False
+          True  && True    True
 
-||    OR  (OU)
-      False && False   False
-      False && True    True
-      True  && False   True
-      True  && True    True
+a || b    OR  (OU)
+          False && False   False
+          False && True    True
+          True  && False   True
+          True  && True    True
 ```
 
 |Operador|Represetação|
