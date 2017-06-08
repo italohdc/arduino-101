@@ -1,6 +1,8 @@
 /*
 	Arduino #001 - Atividade 1
 	Piscar LED em código morse com a mensagem "SOS"
+	
+	Made by Italo Lelis
 */
 
 void setup ()
