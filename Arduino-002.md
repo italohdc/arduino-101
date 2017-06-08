@@ -59,7 +59,7 @@ a <= b    Menor ou igual a
           30 <= 20   False
 ```
 
-Além disso, temos os operadores
+Além disso, temos os operadores:
 
 ```js
 a && b    AND (E)
