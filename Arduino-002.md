@@ -28,73 +28,93 @@ Caso você deseje criar um comentário de várias linhas, você pode utilizar os
 
 ## Operadores Lógicos
 
-Os principais operadores lógicos:
+Na linguagem de programação do Arduino IDE, é possível fazer comparação entre variáveis, comparando a magnitude de duas variáveis, analisando se duas variáveis possuem o mesmo valor, etc. Para isso, você deverá utilizar um dos operadoradores lógicos abaixo.
+
+Ao utilizar um desses operadores lógicos, será retornado ``TRUE`` caso a comparação seja verdadeira ou ``FALSE`` caso a comparação seja falsa.
 
 ```python
 a == b    Igualdade
-          10 == 10   True
-          10 == 20   False
+          10 == 10   TRUE
+          10 == 20   FALSE
 
 a != b    Diferença
-          10 != 10   False
-          10 != 20   True
+          10 != 10   FALSE
+          10 != 20   TRUE
 
 a > b     Maior que
-          10 > 10    False
-          20 > 30    False
-          30 > 20    True
+          10 > 10    FALSE
+          20 > 30    FALSE
+          30 > 20    TRUE
 
 a => b    Maior ou igual a
-          10 >= 10   True
-          20 >= 30   False
-          30 >= 20   True
+          10 >= 10   TRUE
+          20 >= 30   FALSE
+          30 >= 20   TRUE
 
 a < b     Menor que
-          10 < 10    False
-          20 < 30    True
-          30 < 20    False
+          10 < 10    FALSE
+          20 < 30    TRUE
+          30 < 20    FALSE
 
 a <= b    Menor ou igual a
-          10 <= 10   True
-          20 <= 30   True
-          30 <= 20   False
+          10 <= 10   TRUE
+          20 <= 30   TRUE
+          30 <= 20   FALSE
 ```
+
 
 Além disso, temos os operadores:
 
-```js
+```php
 a && b    AND (E)
-          False && False   False
-          False && True    False
-          True  && False   False
-          True  && True    True
+          False && False   FALSE
+          False && True    FALSE
+          True  && False   FALSE
+          True  && True    TRUE
 
 a || b    OR  (OU)
-          False && False   False
-          False && True    True
-          True  && False   True
-          True  && True    True
+          False && False   FALSE
+          False && True    TRUE
+          True  && False   TRUE
+          True  && True    TRUE
 ```
 
-|Operador|Represetação|
-|---|---|
-|Igualdade|a == b|
-|Diferença|a != b|
-|Maior que|a > b|
-|Menor que|a < b|
-|Maior ou igual|a >= b|
-|Menor ou igual|a <= b|
-|Menor que|a < b|
-|Menor que|a < b|
+> Caso você queira fazer mais de uma comparação, você pode utilizar parênteses. As comparações serão feitas primeiramente nos parênteses mais internos.
 
-|Igualdade|==|
-|---|---|
-|20 == 20|true|
-|20 == 10|false|
+```arduino
+// ========= Passo-a-Passo ========= //
+(50 < 40) || ((10 < 20) && (15 >= 12))
+(50 < 40) || ((TRUE) && (TRUE))
+  (FALSE) || (TRUE)
+         TRUE
+```
+
+## IF / ELSE
+
+### if ( )
+
+Ao criar um código, as vezes você quer que uma função seja executada somente se uma condição seja satisfeita. Para fazer isso, pode ser utilizado o comando ``if``.
+
+```arduino
+if (CONDIÇÃO)
+{
+  //Código a ser executado
+}
+```
+Exemplo:
+```arduino
+if (20 > 10)
+{
+  digitalWrite(13, HIGH);
+}
+
+// O LED da porta 13 será ligado caso a condição "20 > 10" seja satisfeita 
+```
 
 * if, else, else if
 * for
 * while
 * functions
+* declarar variáveis
 
 * Declarar bibliotecas (outro tópico)
