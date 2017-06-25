@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Introdução e conceitos básicos para a utilização de um Arduino
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: italohdc
+# twitter_username: italohdc
 github_username:  italohdc
 
 markdown: kramdown
