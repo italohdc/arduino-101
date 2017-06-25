@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Este é um projeto que visa ensinar de forma fácil e intuitiva conhecimentos básicos sobre a utilização do microcontrolador Arduino.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Você pode colaborar com este projeto através do repositório no GitHub:
+[github.com/italohdc/arduino-101](https://github.com/italohdc/arduino-101)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+-------
 
+Projeto desenvolvido por Italo Lelis
 
-[jekyll-organization]: https://github.com/jekyll
+[GitHub](https://github.com/italohdc) / [LinkedIn](https://www.linkedin.com/in/italoleliscarvalho/)
