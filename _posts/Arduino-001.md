@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Arudino #001"
+date:   2017-06-25 07:32:02 -0300
+categories: arduino lesson
+---
+
 # Arduino #001
 
 ## Introdução
