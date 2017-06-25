@@ -1,5 +1,3 @@
-# theme: jekyll-theme-architect
-
 name: Arduino 101
 email: italohdc@gmail.com
 title: Arduino 101
@@ -14,6 +12,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  italohdc
 
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
+# theme: minima
 gems:
   - jekyll-feed
