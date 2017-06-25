@@ -1,6 +1,19 @@
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
+
 name: Arduino 101
+email: italohdc@gmail.com
 title: Arduino 101
 author: Italo Lelis
-author_email: italohdc@gmail.com
-description: Introdução e conceitos básicos para a utilização de um Arduino
+# author_email: italohdc@gmail.com
+
+description: > # this means to ignore newlines until "baseurl:"
+  Introdução e conceitos básicos para a utilização de um Arduino
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: italohdc
+github_username:  italohdc
+
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
