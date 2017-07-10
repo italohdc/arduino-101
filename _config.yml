@@ -13,6 +13,6 @@ github_username:  italohdc
 
 markdown: kramdown
 # theme: jekyll-theme-architect
-theme: minima
+theme: jekyll-theme-cayman
 gems:
   - jekyll-feed
