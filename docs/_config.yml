@@ -1,3 +1,22 @@
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
+
 title: Arduino 101
+
 description: Introdução e conceitos básicos para a utilização de um Arduino
+
+#####
+
+path: /arduino-101
+url:  'http://italohdc.github.io/arduino-101'
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+
+safe: true
+lsi: false
