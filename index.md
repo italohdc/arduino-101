@@ -11,5 +11,6 @@ layout: default
   * Atividades ([Resoluções](https://github.com/italohdc/arduino-101/tree/master/Atividades/Arduino-001))
 
 # [**Aula #002**](https://italohdc.github.io/arduino-101/posts/arduino-002/)
-
-{{ post.title }}
+  * Declarar Comentários
+  * Operadores Lógicos
+  * IF / ELSE
