@@ -9,7 +9,7 @@ author: Italo Lelis
 description: Introdução e conceitos básicos para a utilização de um Arduino
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{ site.baseurl }}/images/arduino_white.png
+# avatar: {{ site.baseurl }}/images/arduino_white.png
 
 #
 # Flags below are optional
