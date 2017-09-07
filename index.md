@@ -128,7 +128,11 @@ Nesse código, o LED ficará aceso por 1 segundo e apagado por 1 segundo.
 
 ---
 
-## Atividade #1
+{% include navPosts.html nextLink="arduino-002" nextName="Aula 2" %}
+
+---
+
+# Atividade #1
 
 Usando os comandos acima, tente reproduzir a mensagem “SOS” em código morse utilizando o LED acoplado ao Arduino.
 
@@ -136,7 +140,7 @@ Usando os comandos acima, tente reproduzir a mensagem “SOS” em código morse
 |---|---|---|
 |• • •|─ ─ ─|• • •|
 
-## Atividade #2
+# Atividade #2
 
 Crie um código que faça com que o LED acoplado pisque. Porém, o tempo que ele permanece desligado deve aumentar progressivamente.
 
@@ -152,3 +156,5 @@ Crie um código que faça com que o LED acoplado pisque. Porém, o tempo que ele
 Lembrando que a linguagem de programação utilizada pela Arduino IDE compartilha várias funções em comum com a linguagem C++. Caso você não tenha muito conhecimento sobre a linguagem C++, o próximo tópico irá explicar um pouco mais sobre os comandos básicos dessa linguagem.
 
 ### [Resoluções das Atividades](https://github.com/italohdc/arduino-101/tree/master/Atividades/Arduino-001)
+
+{% include navPosts.html nextLink="arduino-002" nextName="Aula 2" %}
