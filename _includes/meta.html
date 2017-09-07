@@ -12,12 +12,12 @@
     {% endif %}
     <meta name="author" content="{{ site.author }}" />
 
-    <meta property="title" content="{% if page.title %}{{ page.title }} - {% endif %}Italo Lelis" />
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Italo Lelis" />
-    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}Italo Lelis" />
+    <meta property="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
 
     {% if page.thumbnail %}
     <meta property="og:image" content="{{ site.baseurl }}/images/thumbnails/{{ page.thumbnail }}">
     {% else %}
-    <meta property="og:image" content="{{ site.baseurl }}/images/arduino-logo.jpg">
+    <meta property="og:image" content="{{ site.baseurl }}/images/arduino-logo.png">
     {% endif %}
