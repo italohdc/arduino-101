@@ -1,4 +1,4 @@
-<div class="navPosts">
-	{% if include.prevLink %}<a href="http://italolelis.com/arduino-101/posts/{{ include.prevLink }}" class="nav-posts-left">{{ include.prevName}}</a>{% endif%}
-	{% if include.nextLink %}<a href="http://italolelis.com/arduino-101/posts/{{ include.nextLink }}" class="nav-posts-right">{{ include.nextName}}</a>{% endif%}
+<div class="nav-posts">
+	{% if include.prevLink %}<a href="http://italolelis.com/arduino-101/posts/{{ include.prevLink }}" class="nav-posts-left">&laquo; {{ include.prevName}}</a>{% endif%}
+	{% if include.nextLink %}<a href="http://italolelis.com/arduino-101/posts/{{ include.nextLink }}" class="nav-posts-right">{{ include.nextName}} &raquo;</a>{% endif%}
 </div>
