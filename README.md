@@ -4,7 +4,7 @@ O projeto Arduino 101 visa transmitir alguns conhecimentos básicos sobre o manu
 
 [- Conhecer site do Arduino 101 -](http://arduino.italolelis.com)
 
-[![Página Inicial do Arduino 101](images/arduino101-homepage.jpg)](http://arduino.italolelis.com)
+[![Página Inicial do Arduino 101](images/arduino101-homepage.png)](http://arduino.italolelis.com)
 
 ## Sobre o Projeto
 
