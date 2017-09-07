@@ -128,10 +128,6 @@ Nesse código, o LED ficará aceso por 1 segundo e apagado por 1 segundo.
 
 ---
 
-{% include navPosts.html nextLink="arduino-002" nextName="Aula 2" %}
-
----
-
 # Atividade #1
 
 Usando os comandos acima, tente reproduzir a mensagem “SOS” em código morse utilizando o LED acoplado ao Arduino.
