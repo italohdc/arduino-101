@@ -2,9 +2,9 @@
 
 O projeto Arduino 101 visa transmitir alguns conhecimentos básicos sobre o manuseio, prototipagem e utilização de um Arduino.
 
-[- Conhecer site do Arduino 101 -](http://arduino.italolelis.com)
+[- Conhecer site do Arduino 101 -](https://italohdc.github.com/arduino-101)
 
-[![Página Inicial do Arduino 101](images/arduino101-homepage.png)](http://arduino.italolelis.com)
+[![Página Inicial do Arduino 101](images/arduino101-homepage.png)](https://italohdc.github.com/arduino-101)
 
 ## Sobre o Projeto
 
