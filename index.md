@@ -27,5 +27,6 @@ layout: default
       </div>
 
     </article>
+    {% endif %}
   {% endfor %}
 </div>
