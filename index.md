@@ -3,7 +3,7 @@ layout: page
 title: Índice
 ---
 
-Aqui você confere um pequeno guia sobre como utilizar a ambiente de desenvolvimento do Arduino, como construir projetos eletrônicos básicos e conceitos de programação.
+Aqui você confere um pequeno guia sobre como utilizar o ambiente de desenvolvimento do Arduino, como construir projetos eletrônicos básicos e conceitos de programação.
 
 Logo após terminar este guia, você estará apto a criar várias bugigangas que vão facilitar o seu dia a dia e ajudá-lo a resolver problemas que se encontrem no meio do caminho. Aproveite bastante e se divirta muito durante a leitura dessas aulas!
 
