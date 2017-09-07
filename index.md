@@ -7,14 +7,14 @@ Aqui você confere um pequeno guia sobre como utilizar o ambiente de desenvolvim
 
 Logo após terminar este guia, você estará apto a criar várias bugigangas que vão facilitar o seu dia a dia e ajudá-lo a resolver problemas que se encontrem no meio do caminho. Aproveite bastante e se divirta muito durante a leitura dessas aulas!
 
-# [**Aula #001**](https://italohdc.github.io/arduino-101/posts/arduino-001/)
+# [**Aula 1** - Introdução](https://italohdc.github.io/arduino-101/posts/arduino-001/)
   * Introdução ao ambiente Arduino IDE
   * Funções ``void setup()`` e ``void loop()``
   * Funções ``pinMode()``, ``digitalWrite()`` e ``delay()``
   * Piscar LED
   * Atividades ([Resoluções](https://github.com/italohdc/arduino-101/tree/master/Atividades/Arduino-001))
 
-# [**Aula #002**](https://italohdc.github.io/arduino-101/posts/arduino-002/)
+# [**Aula 2 - Conceitos de C++**](https://italohdc.github.io/arduino-101/posts/arduino-002/)
   * Declarar Comentários
   * Operadores Lógicos
   * IF / ELSE
