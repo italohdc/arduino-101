@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Este é um projeto que visa ensinar de forma fácil e intuitiva conhecimentos básicos sobre a utilização do microcontrolador Arduino.
+Estudante de Engenharia de Controle e Automação na UFMG
 
-Você pode colaborar com este projeto através do repositório no GitHub:
-[github.com/italohdc/arduino-101](https://github.com/italohdc/arduino-101)
+### More Information
 
--------
+Estudante de Engenharia na UFMG, já participou de diversas competições de robótica, tanto nacionais quanto mundiais. Apaixonado por programação, vem se especializando no estudo e aplicação de algoritmos.
 
-Projeto desenvolvido por Italo Lelis
+### Contact me
 
-[GitHub](https://github.com/italohdc) / [LinkedIn](https://www.linkedin.com/in/italoleliscarvalho/)
+[italohdc@gmail.com](mailto:italohdc@gmail.com)

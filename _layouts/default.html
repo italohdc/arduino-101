@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <meta charset="utf-8">
-   <title>{{ page.title }} - {{ site.title }}</title>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico?">
 
-   <link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
+    {% include meta.html %}
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-   <script src="{{ site.path }}/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    {% seo %}
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">{{ site.title }}</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="https://github.com/italohdc/arduino-101">About</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-    <div class="container">
-      <div class="content">
-        {{ content }}
-      </div>
-    </div><!-- /.container -->
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
 
-</body>
+          <nav>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about">About Me</a>
+            <a href="https://github.com/italohdc"><img src="{{ site.baseurl }}/images/icons/github.svg" alt="GitHub"></a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container-main">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+          <p class="footer-info"> Italo Lelis de Carvalho • 2017</p>
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
 </html>

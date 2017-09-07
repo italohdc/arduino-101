@@ -1,0 +1,54 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$gray2: #bbb;
+$lightGray: #eee;
+$lighterGray: #fafafa;
+$white: #fff;
+
+//Custom colors
+$githubColor: #24292e;
+$masterColor: $githubColor;
+
+/* Colors
+	#b2cce6 - Light Blue
+	#67bcdb - Healty Blue
+	#6dbdd6 - Triadic Blue
+
+	#f0f8f8 - Inventive Blue
+	#a8f0a0 - Inventive Green
+
+	#30499B - Strong Blue
+	#0d0a8a
+	#1d2b69
+	#181991
+
+	#24292e - GitHub
+*/
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+/*$verdana: Verdana, Geneva, sans-serif;*/
+$trebuchet: "Trebuchet MS", Helvetica, sans-serif;
+$palatino: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$serif-font: $palatino;
+$sans-serif-font: $trebuchet;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
