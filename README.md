@@ -10,7 +10,7 @@ O projeto Arduino 101 visa transmitir alguns conhecimentos básicos sobre o manu
 
 Trata-se de uma iniciativa sem fins lucrativos, distribuida sobre a [licença do MIT](https://github.com/italohdc/arduino-101/blob/master/LICENSE), criada como um projeto pessoal visando disseminar o conhecimento sobre a plataforma.
 
-Sendo uma iniciativa de código aberto, todos podem contribuir, editar e compartilhar livremente o projeto. Se desejar, pode acessar o [repositório no GitHub](https://github.com/italohdc/arduino-101) para conhecer o código-fonte e realizar alterações.
+Sendo uma iniciativa de código aberto, todos podem compartilhar, editar e contribuir livremente com projeto. Se desejar, pode acessar o [repositório no GitHub](https://github.com/italohdc/arduino-101) para conhecer o código-fonte e realizar alterações.
 
 O site foi desenvolvido em [Jekyll](https://jekyllrb.com/) utilizando como base o tema [Jekyll Now](https://github.com/barryclark/jekyll-now), ambos também distribuídos sobre a [licença do MIT](https://github.com/italohdc/arduino-101/blob/master/LICENSE).
 
