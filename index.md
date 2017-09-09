@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Índice
 ---
 
 Aqui você confere um pequeno guia sobre como utilizar o ambiente de desenvolvimento do Arduino, como construir projetos eletrônicos básicos e conceitos de programação.
