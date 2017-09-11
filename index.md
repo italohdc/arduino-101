@@ -17,6 +17,7 @@ Logo após terminar este guia, você estará apto a criar várias bugigangas que
   * Declarar Comentários
   * Operadores Lógicos
   * ``if``, ``else if`` e ``else``
+  * Repetição: ``for``
   
 ---
 
