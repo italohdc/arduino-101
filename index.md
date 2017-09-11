@@ -16,8 +16,8 @@ Logo após terminar este guia, você estará apto a criar várias bugigangas que
 # [Aula 2 - Conceitos de C++](https://italohdc.github.io/arduino-101/posts/arduino-002/)
   * Declarar Comentários
   * Operadores Lógicos
-  * IF / ELSE
-
+  * ``if``, ``else if`` e ``else``
+  
 ---
 
 # Aula 1 - Introdução
