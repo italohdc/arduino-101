@@ -349,7 +349,7 @@ nav {
   width: 40%;
   float: right;
   margin: 16px -40px 16px 16px;
-  clear: left;
+  clear: both;
   @include mobile {
     margin: auto;
     clear: none;
