@@ -133,11 +133,12 @@ table, th, td {
 
 th {
   background-color: $lightGray;
+  padding: 6px 10px;
 }
 
 td { 
   background-color: $lighterGray;
-  padding: 12px;
+  padding: 12px 16px;
 }
 
 hr {
